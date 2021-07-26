@@ -1,0 +1,25 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.checkout-thankyou-message {
+	border: 2px solid black; padding: 30px; margin-bottom: 30px; text-align: center;
+}
+.checkout-thankyou-message :last-child {
+	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+
+.wooco_before_text, .wooco_after_text{
+	color: red;
+}
